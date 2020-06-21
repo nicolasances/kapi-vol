@@ -25,7 +25,8 @@ app.get('/status', (req, res) => {
 
 app.post('/data', (req, res) => {
 
-    let home = process.env['HOME'];
+    // let home = process.env['HOME'];
+    let home = '/';
     let folderName = 'my-data';
 
     let dir = home + '/' + folderName;
