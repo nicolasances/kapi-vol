@@ -19,10 +19,10 @@ jobs:
     - name: Build Docker image
       run: |
         export PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[",]//g' | tr -d '[[:space:]]')
-        docker build . -t nicolasances/kapi-base:$PACKAGE_VERSION
+        docker build . -t nicolasances/kapi-vol:$PACKAGE_VERSION
  
     - name: Push Docker image to Dockerhub 
       run: |
         export PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[",]//g' | tr -d '[[:space:]]')
-        docker push nicolasances/kapi-base:$PACKAGE_VERSION
+        docker push nicolasances/kapi-vol:$PACKAGE_VERSION
     
