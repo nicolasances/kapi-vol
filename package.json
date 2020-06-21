@@ -1,5 +1,5 @@
 {
-  "name": "kapi-base",
+  "name": "kapi-vol",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nicolasances/kapi-base.git"
+    "url": "git+https://github.com/nicolasances/kapi-vol.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nicolasances/kapi-base/issues"
+    "url": "https://github.com/nicolasances/kapi-vol/issues"
   },
-  "homepage": "https://github.com/nicolasances/kapi-base#readme",
+  "homepage": "https://github.com/nicolasances/kapi-vol#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1"
